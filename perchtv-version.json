@@ -1,0 +1,8 @@
+{
+  "versionCode": 1022,
+  "versionName": "0.1.22",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.22/PerchTV-v0.1.22.apk",
+  "apkSha256": "7c16ee90a0175f252557ed0a995c7dbab923e6fccb1c5f8727cd239699422b6a",
+  "changelog": "# PerchTV 0.1.22\n\nPerchTV is now its own app, under a new name on your television.\n\n## WHAT CHANGED\n\n- PerchTV has a new app identity, the one it will carry in the app stores. Your television installs it as a new app: open it, pair your phone again with the nine digits it shows, then remove the old PerchTV.\n- The pairing screen now reads \"Scan this, or enter the digits in the app on your phone\", because more than one phone app can pair with it.\n- The television now plays each stream with the player name your phone asks for, and uses its own name, PerchTV, when the phone names none. Update the phone app first.\n\n## WHAT STAYS THE SAME\n\n- Pairing that lasts until you unpair, the remote's controls, and the television's questions all work as before.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.22"
+}
