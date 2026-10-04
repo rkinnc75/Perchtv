@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PerchTV and Perch privacy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #15171a; --muted: #5b6270; --rule: #e3e6ea; --accent: #0b7a8f; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0b0e12; --fg: #e8eaee; --muted: #9aa3b0; --rule: #232831; --accent: #22d3ee; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  p.meta { color: var(--muted); margin-top: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--rule); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy</h1>
+<p class="meta">PerchTV (on Android TV and Samsung televisions) and Perch (on Android phones). Updated 4 October 2026.</p>
+
+<p>PerchTV plays, on your television, a video that a phone you paired with it sends. Perch is a phone app that sends the videos stored on your phone. Neither app has accounts, advertising, analytics or tracking, and neither sells or shares anything about you.</p>
+
+<h2>What leaves your devices</h2>
+<table>
+<tr><th>What</th><th>Where it goes</th><th>Why, and for how long</th></tr>
+<tr><td>A random identifier the television makes for itself, and the nine-digit pairing code it shows</td><td>The pairing service</td><td>So a phone can find the television. A code expires after five minutes or when it is used. The identifier is kept until the television is unpaired or reset.</td></tr>
+<tr><td>The phone's model name and a random pairing identifier</td><td>The pairing service and your television</td><td>So the television can show which phone it is paired with. Kept until you unpair.</td></tr>
+<tr><td>What the phone asks the television to play, and what the television reports back (playing, paused, stopped)</td><td>Your television, relayed by the pairing service</td><td>Encrypted on the sending device and readable only by the other one. The pairing service relays it and cannot read it. Nothing is stored.</td></tr>
+<tr><td>The video file itself, when Perch casts one</td><td>Your television, over your own home network</td><td>Only while the television plays it. It does not pass through the pairing service.</td></tr>
+<tr><td>The network address a connection comes from</td><td>The pairing service</td><td>Only after a wrong pairing code, to stop guessing: it is counted for five minutes and then forgotten.</td></tr>
+</table>
+
+<h2>On your devices</h2>
+<p>Perch asks to see the videos on your phone so it can list them. It reads them only to show them to you and to send the one you choose. It never changes or deletes them. You can instead pick a single file with the system's file picker, which needs no permission. Each app keeps its pairing on the device until you unpair.</p>
+
+<h2>Unpairing and deleting</h2>
+<p>Unpair from Perch, or hold OK on the television's remote. Unpairing ends the pairing on the television, on the phone and in the pairing service. Uninstalling either app removes everything it kept on that device.</p>
+
+<h2>Children</h2>
+<p>The apps are not directed at children and collect nothing that identifies a person.</p>
+
+<h2>Changes and questions</h2>
+<p>If this changes, this page changes first, and the date above with it. For questions, use the contact address on the app's store listing.</p>
+</main>
+</body>
+</html>
