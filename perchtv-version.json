@@ -1,8 +1,8 @@
 {
-  "versionCode": 1023,
-  "versionName": "0.1.23",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.23/PerchTV-v0.1.23.apk",
-  "apkSha256": "35e0585c1c799114ba8ee5bd05e6d2c55dcc4c3f5d12c26eb1755b37b9aa4906",
-  "changelog": "# PerchTV 0.1.23\n\nUp to eight phones on one television.\n\n## WHAT CHANGED\n\n- Hold OK on the remote to open a list: pair another phone, unpair one phone, or unpair all of them. The television's screen lists every paired phone.\n- The last phone to start playing is the one in control. The other phone is told that another phone is now using the television.\n- On Samsung televisions, Voice Guide reads PerchTV's screens, including the pairing code digit by digit, and a film's own captions show when the television's captions are turned on.\n\n## WHAT STAYS THE SAME\n\n- A pairing still lasts until you unpair it, and the phone you already paired stays paired after this update.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.23"
+  "versionCode": 1024,
+  "versionName": "0.1.24",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.24/PerchTV-v0.1.24.apk",
+  "apkSha256": "515f57c2dceb2755643ebf7c40d2a0ebaa3211632b437863fb29aeeae36cca88",
+  "changelog": "# PerchTV 0.1.24\n\nOK no longer stops live TV.\n\n## WHAT CHANGED\n\n- Pressing OK on the remote while a live channel plays now leaves it playing. Live TV cannot be paused, and OK used to stop it. Press Back, or Stop on the phone, to end a channel. OK still pauses and resumes films and episodes.\n- The list that holding OK opens now has the screen to itself on the waiting screen, so the text behind it no longer shows through.\n\n## WHAT STAYS THE SAME\n\n- Up to eight phones, the list of paired phones, Voice Guide and captions on Samsung televisions.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.24"
 }
