@@ -1,8 +1,8 @@
 {
-  "versionCode": 1022,
-  "versionName": "0.1.22",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.22/PerchTV-v0.1.22.apk",
-  "apkSha256": "7c16ee90a0175f252557ed0a995c7dbab923e6fccb1c5f8727cd239699422b6a",
-  "changelog": "# PerchTV 0.1.22\n\nPerchTV is now its own app, under a new name on your television.\n\n## WHAT CHANGED\n\n- PerchTV has a new app identity, the one it will carry in the app stores. Your television installs it as a new app: open it, pair your phone again with the nine digits it shows, then remove the old PerchTV.\n- The pairing screen now reads \"Scan this, or enter the digits in the app on your phone\", because more than one phone app can pair with it.\n- The television now plays each stream with the player name your phone asks for, and uses its own name, PerchTV, when the phone names none. Update the phone app first.\n\n## WHAT STAYS THE SAME\n\n- Pairing that lasts until you unpair, the remote's controls, and the television's questions all work as before.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.22"
+  "versionCode": 1023,
+  "versionName": "0.1.23",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.23/PerchTV-v0.1.23.apk",
+  "apkSha256": "35e0585c1c799114ba8ee5bd05e6d2c55dcc4c3f5d12c26eb1755b37b9aa4906",
+  "changelog": "# PerchTV 0.1.23\n\nUp to eight phones on one television.\n\n## WHAT CHANGED\n\n- Hold OK on the remote to open a list: pair another phone, unpair one phone, or unpair all of them. The television's screen lists every paired phone.\n- The last phone to start playing is the one in control. The other phone is told that another phone is now using the television.\n- On Samsung televisions, Voice Guide reads PerchTV's screens, including the pairing code digit by digit, and a film's own captions show when the television's captions are turned on.\n\n## WHAT STAYS THE SAME\n\n- A pairing still lasts until you unpair it, and the phone you already paired stays paired after this update.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.23"
 }
