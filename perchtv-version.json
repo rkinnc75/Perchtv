@@ -1,8 +1,8 @@
 {
-  "versionCode": 1027,
-  "versionName": "0.1.27",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.27/PerchTV-v0.1.27.apk",
-  "apkSha256": "0211c0d3f3f505d963ec2c7740395bf4e65313539ffea2c8dbf9bfa8d7ef2e9d",
-  "changelog": "# PerchTV 0.1.27\n\nCaptions for MP4 videos on Samsung televisions.\n\n## WHAT CHANGED\n\n- On Samsung televisions, an MP4 video sent from Perch with its own captions now shows them while the television's caption setting is on: each line appears at its time and goes when it ends, and none is left on screen after a stop or a skip. Videos whose captions the television already showed keep working as before.\n\n## WHAT STAYS THE SAME\n\n- A film that ends, ends; live TV still recovers on its own if the picture freezes; Voice Guide on Samsung televisions; and up to eight phones.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.27"
+  "versionCode": 1028,
+  "versionName": "0.1.28",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.28/PerchTV-v0.1.28.apk",
+  "apkSha256": "9317cc59f82d11a20b92db2a771c52d535ad659d6b482e2e7fd378b09b12c204",
+  "changelog": "# PerchTV 0.1.28\n\nCaptions and spoken guidance on Android TV.\n\n## WHAT CHANGED\n\n- On Android TV, a video's own captions now show while the television's caption setting is on (Settings, Accessibility, Captions), at the text size chosen there. With the setting off, none are shown.\n- With TalkBack on, the pairing code is read digit by digit, the status line and the paused line are read when they change, and the highlighted choice in the phones list, or in a question from the phone, is read as the remote moves it.\n\n## WHAT STAYS THE SAME\n\n- Samsung televisions: the same as 0.1.27 apart from the version number. Captions for MP4 videos from Perch, Voice Guide, a film that ends, ends, and up to eight phones.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.28"
 }
