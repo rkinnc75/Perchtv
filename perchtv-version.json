@@ -1,8 +1,8 @@
 {
-  "versionCode": 1025,
-  "versionName": "0.1.25",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.25/PerchTV-v0.1.25.apk",
-  "apkSha256": "927c90813d33297c7a3367c02bba19c381ff2faf581be9d03e3d39038eb1a197",
-  "changelog": "# PerchTV 0.1.25\n\nCaptions and Voice Guide on Samsung televisions, tidied after testing on a set.\n\n## WHAT CHANGED\n\n- On Samsung televisions, a film's own captions now show cleanly, without stray characters at the end of each line.\n- On Samsung televisions, Voice Guide always has something to read when you return to the waiting screen, after closing the list of phones or stopping a film.\n\n## WHAT STAYS THE SAME\n\n- OK leaves live TV playing, up to eight phones, and the list of paired phones.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.25"
+  "versionCode": 1026,
+  "versionName": "0.1.26",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.26/PerchTV-v0.1.26.apk",
+  "apkSha256": "460c5b2f776043bf0ba9a7377d1ba72dc93a48f2d96906166eb5053f5dc5ad2a",
+  "changelog": "# PerchTV 0.1.26\n\nA film that ends, ends.\n\n## WHAT CHANGED\n\n- On Samsung televisions, a film the television never reported as finished could start again from the beginning, over and over. PerchTV now sees that the film has reached its end and stops, with \"The stream ended\".\n\n## WHAT STAYS THE SAME\n\n- Live TV still recovers on its own if the picture freezes, captions and Voice Guide on Samsung televisions, and up to eight phones.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.26"
 }
