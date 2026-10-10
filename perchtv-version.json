@@ -1,8 +1,8 @@
 {
-  "versionCode": 1029,
-  "versionName": "0.1.29",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.29/PerchTV-v0.1.29.apk",
-  "apkSha256": "005f4b6f1f915d7eae61a69386061bce94ccbea9679b982fe52c25ed630b4910",
-  "changelog": "# PerchTV 0.1.29\n\nA steadier pairing list on Android TV.\n\n## WHAT CHANGED\n\n- On Android TV, unpairing every phone while another phone's command is arriving can no longer bring a removed pairing back after a restart.\n\n## WHAT STAYS THE SAME\n\n- Samsung televisions: the same as 0.1.28 apart from the version number. Captions and spoken guidance on both televisions, a film that ends, ends, and up to eight phones.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.29"
+  "versionCode": 1030,
+  "versionName": "0.1.30",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.30/PerchTV-v0.1.30.apk",
+  "apkSha256": "f16d18e8424abb626df66d6062812a0fc63cefeeaab4a345a36c4a94128003ba",
+  "changelog": "# PerchTV 0.1.30\n\nPairing right after a restart works, and the phones list scrolls.\n\n## WHAT CHANGED\n\n- A phone that enters its code just after the television restarted is paired properly: the television keeps the code it showed until it is claimed or expires, so the pairing can be used, not only listed.\n- The list of paired phones scrolls when it is long, and it is rebuilt when another phone pairs while it is open, so unpairing the one phone listed no longer unpairs a phone that joined after the list opened.\n- On Android TV, a phone that unpairs while another phone's video is starting no longer stops that video.\n- On Samsung televisions, a new video clears the caption line left by the previous one.\n\n## WHAT STAYS THE SAME\n\n- Spoken guidance on both televisions, captions on Android TV, a film that ends, ends, up to eight phones, and 0.1.29's fix for a removed pairing coming back after a restart.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.30"
 }
