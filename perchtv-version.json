@@ -1,8 +1,8 @@
 {
-  "versionCode": 1030,
-  "versionName": "0.1.30",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.30/PerchTV-v0.1.30.apk",
-  "apkSha256": "f16d18e8424abb626df66d6062812a0fc63cefeeaab4a345a36c4a94128003ba",
-  "changelog": "# PerchTV 0.1.30\n\nPairing right after a restart works, and the phones list scrolls.\n\n## WHAT CHANGED\n\n- A phone that enters its code just after the television restarted is paired properly: the television keeps the code it showed until it is claimed or expires, so the pairing can be used, not only listed.\n- The list of paired phones scrolls when it is long, and it is rebuilt when another phone pairs while it is open, so unpairing the one phone listed no longer unpairs a phone that joined after the list opened.\n- On Android TV, a phone that unpairs while another phone's video is starting no longer stops that video.\n- On Samsung televisions, a new video clears the caption line left by the previous one.\n\n## WHAT STAYS THE SAME\n\n- Spoken guidance on both televisions, captions on Android TV, a film that ends, ends, up to eight phones, and 0.1.29's fix for a removed pairing coming back after a restart.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.30"
+  "versionCode": 1031,
+  "versionName": "0.1.31",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.31/PerchTV-v0.1.31.apk",
+  "apkSha256": "25d6725c96dee7be2f7fa9b2ba4e7b629e7249fbf8212c6b5e879392ca63ad27",
+  "changelog": "# PerchTV 0.1.31\n\nThe television says what the stream is doing, and gets a stuck picture back by itself.\n\n## WHAT CHANGED\n\n- On Android TV, a card under the picture says what is happening: the stream refilling, a picture waiting for data, or a reconnect with its try count and the reason, such as the channel dropping.\n- On Android TV, a picture frozen for 15 seconds while the stream is still being fetched reconnects by itself, a film from where it stopped. A live channel the provider ends reconnects at once. After five tries the television says it could not play the stream, instead of sitting on the last frame.\n- On Android TV, a film that freezes on its last frame ends.\n- On Android TV, a picture that has played steadily for 30 seconds earns its five tries back.\n- On Samsung televisions, a stream that stops moving says why beside the turning circle.\n\n## WHAT STAYS THE SAME\n\n- Pairing, up to eight phones, spoken guidance on both televisions, captions on Android TV, and 0.1.30's fixes for pairing right after a restart and the scrolling list of phones.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.31"
 }
