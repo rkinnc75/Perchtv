@@ -1,8 +1,8 @@
 {
-  "versionCode": 1032,
-  "versionName": "0.1.32",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.32/PerchTV-v0.1.32.apk",
-  "apkSha256": "34825e838355faef0a6bbb51f9d657fcdbd20647c66b925169e31ce7756ac108",
-  "changelog": "# PerchTV 0.1.32\n\nThe reconnect card stays up between tries.\n\n## WHAT CHANGED\n\n- On Android TV, while the television is still trying to get a stream back, the card under the picture stays up between tries. Before, a try that failed quickly could show \"The stream ended\" for a few seconds before the next one.\n\n## WHAT STAYS THE SAME\n\n- Samsung televisions: no change in this release; the version moves with Android TV's, so both say 0.1.32.\n- Everything in 0.1.31: the card that says what the stream is doing, a stuck picture reconnecting by itself, a live channel the provider ends reconnecting at once, and the five tries earned back after a steady picture.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.32"
+  "versionCode": 1033,
+  "versionName": "0.1.33",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.33/PerchTV-v0.1.33.apk",
+  "apkSha256": "70fee5c11a2b9da1eb1d9f634276f1d0b1a3a90faaf92e261a6d17339da9e5d7",
+  "changelog": "# PerchTV 0.1.33\n\nThe phone hears \"failed\" only when the television gives up, and a Samsung television stops retrying a stream that keeps freezing.\n\n## WHAT CHANGED\n\n- On Android TV, the phone no longer shows a cast as failed while the television is still trying to get the stream back. It hears \"failed\" only when the television gives up.\n- On Samsung televisions, the five tries to get a stream back are earned back only after about half a minute of picture that keeps moving. Before, a stream that froze after roughly 15 to 30 seconds of picture earned them back each time, so the television could retry it without end.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.32: the reconnect card staying up between tries, the card that says what the stream is doing, a stuck picture reconnecting by itself, and a live channel the provider ends reconnecting at once.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.33"
 }
