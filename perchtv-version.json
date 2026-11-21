@@ -1,8 +1,8 @@
 {
-  "versionCode": 1034,
-  "versionName": "0.1.34",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.34/PerchTV-v0.1.34.apk",
-  "apkSha256": "b82d311d16c851a5770a4888a1b0b29886bcc1a8a9baf63ddc3fb53afb54b79f",
-  "changelog": "# PerchTV 0.1.34\n\nAfter a live channel reconnects, a Samsung television lines the sound up with the picture by itself.\n\n## WHAT CHANGED\n\n- On Samsung televisions, about ten seconds after a live channel comes back from a reconnect, the television tunes it once more so the sound and the picture start together. The card reads \"Resyncing\u2026 lining up the sound with the picture\" while it does. Before, the sound could run a few seconds ahead of the picture until the channel was cast again. A film is not re-tuned: it picks up where it was.\n- On Android TV, nothing changes for viewers: the app is built with the newer Android tools.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.33: the phone hears \"failed\" only when the television gives up, and a Samsung television stops retrying a stream that keeps freezing.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.34"
+  "versionCode": 1035,
+  "versionName": "0.1.35",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.35/PerchTV-v0.1.35.apk",
+  "apkSha256": "ce094ac167b15e2325e066551d1858c71fc088ea1a20fc78ba757c93f05aab49",
+  "changelog": "# PerchTV 0.1.35\n\nSubtitles on Samsung televisions read the way they were written.\n\n## WHAT CHANGED\n\n- On Samsung televisions, a two-line subtitle is drawn on two lines, instead of the two lines run together.\n- Subtitle styling (italics, colours, speaker names and karaoke timings) no longer shows up as text, and characters written as codes, such as accented letters, the ellipsis or the ampersand, show as the character itself.\n- Text in a subtitle that only looks like markup, such as \"x < 5\" or \"<3\", stays as it was written.\n- On Android TV, nothing changes for viewers.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.34: after a live channel reconnects, a Samsung television lines the sound up with the picture by itself.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.35"
 }
