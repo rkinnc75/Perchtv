@@ -1,8 +1,8 @@
 {
-  "versionCode": 1035,
-  "versionName": "0.1.35",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.35/PerchTV-v0.1.35.apk",
-  "apkSha256": "ce094ac167b15e2325e066551d1858c71fc088ea1a20fc78ba757c93f05aab49",
-  "changelog": "# PerchTV 0.1.35\n\nSubtitles on Samsung televisions read the way they were written.\n\n## WHAT CHANGED\n\n- On Samsung televisions, a two-line subtitle is drawn on two lines, instead of the two lines run together.\n- Subtitle styling (italics, colours, speaker names and karaoke timings) no longer shows up as text, and characters written as codes, such as accented letters, the ellipsis or the ampersand, show as the character itself.\n- Text in a subtitle that only looks like markup, such as \"x < 5\" or \"<3\", stays as it was written.\n- On Android TV, nothing changes for viewers.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.34: after a live channel reconnects, a Samsung television lines the sound up with the picture by itself.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.35"
+  "versionCode": 1036,
+  "versionName": "0.1.36",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.36/PerchTV-v0.1.36.apk",
+  "apkSha256": "9c619167926b620d84d2929c187092efff9605c2d019c1517c777ba0b6ad1b86",
+  "changelog": "# PerchTV 0.1.36\n\nOne more subtitle spelling reads as a line break on Samsung televisions.\n\n## WHAT CHANGED\n\n- On Samsung televisions, a subtitle that writes its line break as `</br>` is drawn on two lines, as `<br>` already was.\n- On Android TV, nothing changes for viewers.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.35: two-line subtitles drawn on two lines, and styling and character codes shown as the text they stand for.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.36"
 }
