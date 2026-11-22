@@ -1,8 +1,8 @@
 {
-  "versionCode": 1036,
-  "versionName": "0.1.36",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.36/PerchTV-v0.1.36.apk",
-  "apkSha256": "9c619167926b620d84d2929c187092efff9605c2d019c1517c777ba0b6ad1b86",
-  "changelog": "# PerchTV 0.1.36\n\nOne more subtitle spelling reads as a line break on Samsung televisions.\n\n## WHAT CHANGED\n\n- On Samsung televisions, a subtitle that writes its line break as `</br>` is drawn on two lines, as `<br>` already was.\n- On Android TV, nothing changes for viewers.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.35: two-line subtitles drawn on two lines, and styling and character codes shown as the text they stand for.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.36"
+  "versionCode": 1037,
+  "versionName": "0.1.37",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.37/PerchTV-v0.1.37.apk",
+  "apkSha256": "295f3009653e2571b6706fc1ff54aa8a07d2eeee5041c67507189a13df87cbca",
+  "changelog": "# PerchTV 0.1.37\n\nPlex episodes and films from your phone, and lighter captions on Samsung televisions.\n\n## WHAT CHANGED\n\n- Both televisions play a Plex episode or film sent from MobileIPTV. The link to your Plex server is never saved on the television.\n- On Samsung televisions, the caption box is only as wide as its words and lets the picture show through behind white letters, and a very long word wraps inside it.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.36: two-line subtitles drawn on two lines, whichever way they spell the break.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.37"
 }
