@@ -1,8 +1,8 @@
 {
-  "versionCode": 1037,
-  "versionName": "0.1.37",
-  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.37/PerchTV-v0.1.37.apk",
-  "apkSha256": "295f3009653e2571b6706fc1ff54aa8a07d2eeee5041c67507189a13df87cbca",
-  "changelog": "# PerchTV 0.1.37\n\nPlex episodes and films from your phone, and lighter captions on Samsung televisions.\n\n## WHAT CHANGED\n\n- Both televisions play a Plex episode or film sent from MobileIPTV. The link to your Plex server is never saved on the television.\n- On Samsung televisions, the caption box is only as wide as its words and lets the picture show through behind white letters, and a very long word wraps inside it.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.36: two-line subtitles drawn on two lines, whichever way they spell the break.",
-  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.37"
+  "versionCode": 1038,
+  "versionName": "0.1.38",
+  "apkUrl": "https://github.com/rkinnc75/Perchtv/releases/download/perchtv-v0.1.38/PerchTV-v0.1.38.apk",
+  "apkSha256": "5e3fe8006047f9ef93c7f0833ce0cb21c4b653f60a29811434a28acb1211ee83",
+  "changelog": "# PerchTV 0.1.38\n\nA menu on the television, films that start where your phone was, and a television that reconnects by itself.\n\n## WHAT CHANGED\n\n- Hold OK on the remote to open the PerchTV menu: picture size, audio and captions tracks, a sleep timer, and Resync now when the sound drifts from the picture.\n- A film sent from MobileIPTV's player starts on the television where the phone was. If the television cannot seek in that film, it plays it from the beginning and the skip keys say why.\n- When the television's network comes back after a drop, PerchTV reconnects at once instead of waiting up to a minute.\n- The \"Connecting\u2026\" screen, the paired waiting screen and the unsecured screen now dim, move every five minutes and go dark after thirty, to protect the panel. A screen showing a pairing code never moves.\n- Captions no longer show formatting codes such as {\\an8}, and a caption keeps at most four lines.\n- Tracks are named by their language, and two tracks of one language by their region, for example English (US) and English (UK).\n- Samsung televisions: Voice Guide reads \"Pairing code\" before the digits.\n- A damaged AC-3 audio packet costs that packet, not the whole stream.\n\n## WHAT STAYS THE SAME\n\n- Everything in 0.1.37: Plex episodes and films from your phone, and lighter captions on Samsung televisions.",
+  "releasePageUrl": "https://github.com/rkinnc75/Perchtv/releases/tag/perchtv-v0.1.38"
 }
